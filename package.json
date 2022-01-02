@@ -1,0 +1,51 @@
+{
+  "name": "typescript_react_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "build": "webpack",
+    "dev": "export NODE_ENV=development; webpack serve --open & nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccai89/CII-Inventory.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ccai89/CII-Inventory/issues"
+  },
+  "homepage": "https://github.com/ccai89/CII-Inventory#readme",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/preset-react": "^7.12.13",
+    "@babel/preset-typescript": "^7.16.0",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "css-modules-typescript-loader": "^4.0.1",
+    "dotenv-webpack": "^7.0.3",
+    "express": "^4.17.2",
+    "html-webpack-plugin": "^5.5.0",
+    "identity-obj-proxy": "^3.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass": "^1.32.6",
+    "sass-loader": "^10.1.1",
+    "source-map-loader": "^3.0.0",
+    "style-loader": "^2.0.0",
+    "typescript": "^4.5.2",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  }
+}
